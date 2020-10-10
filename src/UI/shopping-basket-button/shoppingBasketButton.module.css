@@ -1,0 +1,56 @@
+.shopBtn {
+	position: relative;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	direction: rtl;
+	vertical-align: middle;
+	letter-spacing: 0px;
+	height: 54px;
+	width: 172px;
+	background: transparent linear-gradient(108deg, #42f3e7 0%, #06b1b5 100%) 0%
+		0% no-repeat padding-box;
+	outline: none;
+	border: none;
+	border-radius: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 1;
+}
+
+.shopBtn:focus{
+	outline: none;
+}
+
+.shoplogo {
+	width: 22px;
+	height: 18px;
+	background-color: transparent;
+	opacity: 1;
+	margin-left: 5px;
+}
+
+.shopBtn:hover {
+	cursor: pointer;
+}
+
+.badgeCounter{
+	text-align: center;
+	line-height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:30px;
+	height: 30px;
+	font-size: 15px;
+	position: absolute;
+	top: -15px;
+	left: 15px;
+	border: 2px solid white;
+	border-radius: 50%;
+	background-color: rgb(255, 67, 67);
+	color: white;
+}

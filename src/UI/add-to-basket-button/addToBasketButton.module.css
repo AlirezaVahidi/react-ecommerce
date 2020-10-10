@@ -1,0 +1,77 @@
+.addToBasket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 306px;
+	height: 48px;
+	border-radius: 34px;
+	border: none;
+	background: transparent linear-gradient(99deg, #fb6f4b 0%, #fb4b63 100%) 0% 0%
+    no-repeat padding-box;
+	color: white;
+    font: Bold 20px IranSans;
+	letter-spacing: 0.16px;
+    opacity: 0.8;
+    position: relative;
+}
+
+.plusIcon{
+    border: none;
+    position: absolute;
+    display: flex;
+    right: 6px;
+}
+
+
+.plusSvg {
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-position: center center;
+    padding: 10px;
+}
+
+.plusNegaControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 306px;
+	height: 48px;
+	border-radius: 34px;
+	border: none;
+	background-color: #eee; 
+	color: white;
+    font: Bold 20px IranSans;
+	letter-spacing: 0.16px;
+    opacity: 0.8;
+    position: relative;
+}
+
+
+.negaIcon{
+    border:none;
+    position: absolute;
+    display: flex;
+    left: 6px;
+}
+
+.negaSvg {
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-position: center center;
+    padding: 10px;
+}
+
+.countInput{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: none;
+    pointer-events: none;
+}

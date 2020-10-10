@@ -1,0 +1,51 @@
+:root {
+	--top-height: 62px;
+}
+
+
+.tamin {
+	box-sizing: border-box;
+	float: left;
+	width: fit-content;
+	font-size: 25px;
+	text-align: right;
+	vertical-align: middle;
+	line-height: var(--top-height);
+	color: #343434;
+	margin-right: 15%;
+}
+
+.blog {
+	box-sizing: border-box;
+	float: left;
+	width: fit-content;
+	font-size: 25px;
+	text-align: right;
+	vertical-align: middle;
+	line-height: var(--top-height);
+	color: #343434;
+}
+
+.iconText {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	margin-right: 12px;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+	opacity: 1;
+	vertical-align: middle;
+}
+
+
+.locInfo{
+	text-align: right;
+	font-size: 14px;
+	font-weight: 500;
+	color: #f58d66;
+	margin: 0 0;
+	padding-right: 5px;
+}
