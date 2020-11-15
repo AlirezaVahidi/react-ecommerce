@@ -18,7 +18,6 @@ const Main = (props) => {
               <div className="card">
                 <div className="card-body">
                   <div className="col-4">
-
                   </div>
                   <div className="col-4"></div>
                   <div className="col-4"></div>
